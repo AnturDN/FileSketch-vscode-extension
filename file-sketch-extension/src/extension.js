@@ -7,6 +7,7 @@ let currentFileUri = undefined;
 function getStorageKey(uri) {
     if (!uri) return 'default';
     const uriStr = uri.toString();
+
     
     let hash = 0x811c9dc5;
     for (let i = 0; i < uriStr.length; i++) {
@@ -18,6 +19,7 @@ function getStorageKey(uri) {
     const basename = path.basename(uri.fsPath).replace(/[^a-zA-Z0-9._-]/g, '_');
     return `${hashHex}_${basename}.json`;
 }
+
 
 function activate(context) {
     const ensureStorageDir = async () => {
