@@ -616,6 +616,7 @@ function getWebviewContent() {
                     const distToCenter = Math.sqrt(dx * dx + dy * dy);
                     const radius = Math.sqrt(Math.pow(el.x2 - el.x1, 2) + Math.pow(el.y2 - el.y1, 2));
                     if (Math.abs(distToCenter - radius) <= threshold) return el;
+                    
                 } else if (el.type === 'triangle') {
                     const a = { x: el.x1 + (el.x2 - el.x1) / 2, y: el.y1 };
                     const b = { x: el.x2, y: el.y2 };
