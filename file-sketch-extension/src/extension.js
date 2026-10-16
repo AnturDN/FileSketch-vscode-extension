@@ -8,7 +8,6 @@ function getStorageKey(uri) {
     if (!uri) return 'default';
     const uriStr = uri.toString();
 
-    
     let hash = 0x811c9dc5;
     for (let i = 0; i < uriStr.length; i++) {
         hash ^= uriStr.charCodeAt(i);
