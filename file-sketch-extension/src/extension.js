@@ -19,7 +19,6 @@ function getStorageKey(uri) {
     return `${hashHex}_${basename}.json`;
 }
 
-
 function activate(context) {
     const ensureStorageDir = async () => {
         try {
