@@ -532,6 +532,7 @@ function getWebviewContent() {
                     if (el.points[i]) ctx.lineTo(el.points[i].x, el.points[i].y);
                 }
                 ctx.stroke();
+                
             } else if (el.type === 'rect') {
                 ctx.beginPath();
                 ctx.rect(el.x1, el.y1, el.x2 - el.x1, el.y2 - el.y1);
