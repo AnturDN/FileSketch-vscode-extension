@@ -233,6 +233,7 @@ function getWebviewContent() {
         }
     </style>
 </head>
+
 <body>
     <div class="canvas-container">
         <div class="toolbar">
