@@ -289,7 +289,7 @@ function getWebviewContent() {
             <button id="btn-redo" class="tool-btn" title="Redo (Ctrl+Y / Ctrl+Shift+Z)">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 7v6h-6M3 17a9 9 0 019-9 9 9 0 016 2.3l3 2.7"/></svg>
             </button>
-
+            
             <div class="divider-full"></div>
             <button id="btn-clear" class="tool-btn" style="color: #f44336; grid-column: span 2; width: auto;" title="Clear Note">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2M10 11v6M14 11v6"/></svg>
@@ -492,6 +492,7 @@ function getWebviewContent() {
             if (currentTool === 'select' && selectedElements.length > 0) {
                 const box = getMultiBoundingBox(selectedElements);
                 if (box) {
+                
                     ctx.strokeStyle = 'var(--vscode-button-background, #0e639c)';
                     ctx.lineWidth = 1.2 / zoom; 
                     ctx.setLineDash([4 / zoom, 4 / zoom]); 
