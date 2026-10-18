@@ -595,6 +595,7 @@ function getWebviewContent() {
             const dx = p.x - xx; const dy = p.y - yy;
             return Math.sqrt(dx * dx + dy * dy);
         }
+        
 
         function hitTest(pos) {
             const threshold = Math.max(6, (brushSize + 4) / zoom);
