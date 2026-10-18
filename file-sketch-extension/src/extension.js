@@ -349,7 +349,7 @@ function getWebviewContent() {
 
         let isErasing = false;
         let activePreviewElement = null;
-
+        
         let historyStack = [];
         let redoStack = [];
         let clipboard = []; 
