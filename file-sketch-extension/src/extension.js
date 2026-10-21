@@ -14,7 +14,6 @@ function getStorageKey(uri) {
         hash += (hash << 1) + (hash << 4) + (hash << 7) + (hash << 8) + (hash << 24);
     }
     const hashHex = (hash >>> 0).toString(16).padStart(8, '0');
-    
     const basename = path.basename(uri.fsPath).replace(/[^a-zA-Z0-9._-]/g, '_');
     return `${hashHex}_${basename}.json`;
 }
