@@ -417,6 +417,7 @@ function getWebviewContent() {
             const screenY = clientY - rect.top;
             return { x: (screenX - pan.x) / zoom, y: (screenY - pan.y) / zoom };
         }
+        
 
         function getBoundingBox(el) {
             if (el.type === 'rect' || el.type === 'arrow') {
