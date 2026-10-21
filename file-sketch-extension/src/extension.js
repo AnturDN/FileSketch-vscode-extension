@@ -752,7 +752,7 @@ function getWebviewContent() {
                 triggerSave(); drawAll();
             }
         }
-
+        
         function startDrawing(e) {
             if (e.target !== canvas) return;
             if (e.button && e.button !== 0 && e.button !== 1) return;
