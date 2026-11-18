@@ -46,8 +46,8 @@ Redo	Ctrl + Y / Ctrl + Shift + Z	Cmd + Y / Cmd + Shift + Z
 ⚙️ How It Works (Behind the Scenes)
 FileSketch is engineered to protect your privacy and project integrity:
 
-Zero Cloud Uploads — Your notes are stored 100% locally.
-Local Application Storage — Notes are serialized into lightweight JSON arrays mapped to file hashes in VS Code's secure globalStorageUri directory.
+Zero Cloud Uploads - Your notes are stored 100% locally.
+Local Application Storage - Notes are serialized into lightweight JSON arrays mapped to file hashes in VS Code's secure globalStorageUri directory.
 DPI-Aware Canvas — Autodetects high-DPI monitors and scales the backing store automatically to prevent low-pixelated text or blurry lines.
 🛠️ Manual Installation (VSIX)
 If you downloaded the .vsix package manually:
