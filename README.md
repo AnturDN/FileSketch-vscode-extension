@@ -1,7 +1,7 @@
 FileSketch 📝
 Take high-fidelity, side-by-side visual notes, architectural sketches, and flowcharts directly alongside your active code editor in VS Code.
 
-FileSketch provides a persistent, file-specific infinite whiteboard that automatically switches and saves with your files — without cluttering your workspace.
+FileSketch provides a persistent, file-specific infinite whiteboard that automatically switches and saves with your files - without cluttering your workspace.
 
 🌟 Key Features
 File-Specific & Workspace-Preserving No clutter! Your sketches are automatically mapped to individual code files. Switching files instantly swaps your canvas context without creating extra .png or .json files in your active workspace directory.
